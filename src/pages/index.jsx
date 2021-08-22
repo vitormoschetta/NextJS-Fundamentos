@@ -1,12 +1,13 @@
 import styles from '../styles/Home.module.css'
+import Header from '../components/header'
+import Converter from '../components/converter'
 
 export default function Init() {
     return (
         <div className={styles.container}>
             <main className={styles.main}>
-                <h1 className={styles.title}>
-                    Welcome to <a href="https://nextjs.org">Next.js!</a>
-                </h1>
+                <Header/>
+                <Converter />
             </main>
         </div>
     )
