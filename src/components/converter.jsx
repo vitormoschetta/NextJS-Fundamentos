@@ -1,6 +1,6 @@
 import styles from '../styles/layout.module.css'
 
-export default function ConverterComponent(params) {
+export default function Converter(params) {
 
     // params é somente leitura
 

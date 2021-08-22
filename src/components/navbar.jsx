@@ -1,7 +1,7 @@
 import styles from '../styles/layout.module.css'
 import Link from "next/link";
 
-export default function Header() {
+export default function Navbar() {
     return (
         <div>            
             <h1 className={styles.title}>

@@ -1,11 +1,11 @@
 import styles from '../styles/layout.module.css'
-import Header from './header'
+import Navbar from './navbar'
 
 export default function Layout(params) {
     return (
 
         <div className={styles.container}>
-            <Header />
+            <Navbar />
 
             <main className={styles.main}>
                 {params.children}
