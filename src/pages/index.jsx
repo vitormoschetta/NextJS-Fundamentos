@@ -1,14 +1,9 @@
-import styles from '../styles/Home.module.css'
-import Header from '../components/header'
-import Converter from '../components/converter'
+import Layout from '../components/layout'
 
-export default function Init() {
+export default function IndexPage() {
     return (
-        <div className={styles.container}>
-            <main className={styles.main}>
-                <Header/>
-                <Converter />
-            </main>
-        </div>
+        <Layout>
+            Index Page Content
+        </Layout>
     )
 }

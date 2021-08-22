@@ -1,7 +1,17 @@
+import styles from '../styles/layout.module.css'
+import Link from "next/link";
+
 export default function Header() {
     return (
-        <header>
-            <h1>Fundamentals of NextJS and React</h1>
-        </header>
+        <div>            
+            <h1 className={styles.title}>
+                Welcome to <a href="https://nextjs.org">Next.js!</a>
+            </h1>
+
+            <div className={styles.navbar}>
+                <Link href="/">Home</Link>
+                <Link href="/converter">Converter</Link>
+            </div>            
+        </div>
     )
 }
