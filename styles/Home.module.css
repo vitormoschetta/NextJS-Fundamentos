@@ -119,3 +119,14 @@
     flex-direction: column;
   }
 }
+
+
+.formulario div {
+  margin-top: 2em;
+  margin-left: 0.5rem;
+}
+
+
+.formulario div input{
+  margin-left: 2em;
+}
