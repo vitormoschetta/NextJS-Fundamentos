@@ -8,12 +8,12 @@ export default function Converter(params) {
         <div className={styles.formulario}>
             <div>
                 <label>Valor Real R$</label>
-                <input type="text" value={params.vlr_real}></input>
+                <input type="text" value={params.vlr_real} />
             </div>
 
             <div>
                 <label>Valor Dolar</label>
-                <input type="text" value={params.vlr_dolar}></input>
+                <input type="text" value={params.vlr_dolar} />
             </div>
         </div>
 

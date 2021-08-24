@@ -1,5 +1,6 @@
 import styles from '../styles/layout.module.css'
 import Navbar from './navbar'
+import Footer from './footer'
 
 export default function Layout(params) {
     return (
@@ -11,9 +12,7 @@ export default function Layout(params) {
                 {params.children}
             </main>
 
-            <footer className={styles.footer}>
-                Footer here
-            </footer>            
+            <Footer />   
         </div>
     )
 }

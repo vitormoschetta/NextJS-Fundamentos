@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
     return (
-        <div>            
+        <div>
             <h1 className={styles.title}>
                 Welcome to <a href="https://nextjs.org">Next.js!</a>
             </h1>
@@ -11,7 +11,8 @@ export default function Navbar() {
             <div className={styles.navbar}>
                 <Link href="/">Home</Link>
                 <Link href="/converter">Converter</Link>
-            </div>            
+            </div>
         </div>
+
     )
 }
