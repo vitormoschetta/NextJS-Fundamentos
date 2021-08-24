@@ -1,5 +1,5 @@
 import Converter from "../components/converter"
-import Layout from '../components/layout'
+import Layout from '../template/layout'
 
 export default function ConverterPage() {
     return (

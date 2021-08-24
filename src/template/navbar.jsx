@@ -11,6 +11,7 @@ export default function Navbar() {
             <div className={styles.navbar}>
                 <Link href="/">Home</Link>
                 <Link href="/converter">Converter</Link>
+                <Link href="/product">Products</Link>
             </div>
         </div>
 
